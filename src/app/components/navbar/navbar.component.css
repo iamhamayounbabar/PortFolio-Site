@@ -1,13 +1,16 @@
-h6{
-    font-size: 2.5vh !important;
+span{
+    font-size: 2.8vh !important;
+ 
 }
-h6:hover{
+span:hover{
     color: #F79F20;
 }
 .btn-outline-secondary{
     border: .1vh solid #F79F20 !important;
-    font-size: 2.5vh;
-    padding: 1vh;
+    font-size: 2.8vh;
+    padding: 4vh;
+    border-radius: 5vh; 
+    color: white;
 }
 .btn-outline-secondary:hover{
     background-color:  #F79F20 !important;

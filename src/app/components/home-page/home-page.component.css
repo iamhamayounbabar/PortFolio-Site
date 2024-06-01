@@ -1,7 +1,7 @@
 .btn-outline-secondary{
     border: .1vh solid #F79F20 !important;
     font-size: 2.8vh;
-    padding: 5vh;
+    padding: 3vh;
     border-radius: 5vh; 
     color: white;
     margin-top: 10vh;
@@ -10,3 +10,4 @@
     background-color:  #F79F20 !important;
     color: black !important;
 }
+

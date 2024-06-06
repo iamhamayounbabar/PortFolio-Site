@@ -168,7 +168,7 @@ ul.skills li:before {
 	left: 0;
 	bottom: 0;
 	border-radius: 2px;
-	border: 1px solid #111;
+	border: .5vh solid #111;
 	border-color: #111 #323232 #323232 #111;
 	--track: #2292dd40;
 	background: linear-gradient(
@@ -188,7 +188,7 @@ ul.skills3 li:before {
 
 ul.skills li:after {
 	content: "";
-	height: 11px;
+	height: 1vh;
 	margin: 0 0 2px 0;
 	background: #2187e7;
 	position: absolute;
@@ -240,11 +240,11 @@ ul.skills li span {
 ul.skills li span:before {
 	position: absolute;
 	right: -25px;
-	top: 43px;
+	top: 9vh;
 	transition: var(--t1);
 	content: "";
 	opacity: 1;
-	border: 7px solid #fff0;
+	border: 1.5vh solid #fff0;
 }
 
 ul.skills li:hover span:before,
@@ -285,7 +285,7 @@ ul.skills li:hover span:after,
 .profile-skills input:checked + label + ul.skills li span:after {
 	transition: var(--t1);
 	right: calc(calc(85 - var(--per)) * 1%);
-	right: calc(calc(calc(100 - var(--per)) * 1%) - 40px);
+	right: calc(calc(calc(100 - var(--per)) * 1%) - 9vh);
 	opacity: 1;
 	background: var(--c1);
 }
